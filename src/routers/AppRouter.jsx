@@ -14,8 +14,8 @@ const AppRouter = () => {
         <Route path='/' element={<MarvelScreen />} />
         <Route path='/marvel' element={<MarvelScreen />} />
         <Route path='/dc' element={<DcScreen />} />
-        <Route path='/dc' element={<SearchScreen />} />
-        <Route path='/dc' element={<LoginScreen />} />
+        <Route path='/search' element={<SearchScreen />} />
+        <Route path='/login' element={<LoginScreen />} />
       </Routes>
     </BrowserRouter>
   );
