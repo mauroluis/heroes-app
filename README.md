@@ -4,7 +4,7 @@ Navigate through your favourite heroes with this React-based web app
 
 ## Go and try it out!
 
-https://www.example.com
+https://www.heroesmarveldc.com
 
 ## Available Scripts
 
