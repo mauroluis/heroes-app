@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import HeroesApp from './HeroesApp';
+import { BrowserRouter } from 'react-router-dom';
+import { HeroesApp } from './HeroesApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<HeroesApp />);
+root.render(
+  <BrowserRouter>
+    <HeroesApp />
+  </BrowserRouter>
+);
